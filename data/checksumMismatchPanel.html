@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+    body { font-family: sans-serif; }
+    h1   { color: #FF5555; }
+    span.header   { font-weight: bold;  }
+    div.footer    { font-style: italic; }
+</style>
+</head>
+<body>
+
+<h1>Checksum Mismatch!</h1>
+
+<p>
+<span class="header">Original download page:</span> <span id="trustedLinkerReferrer"></span><br />
+<span class="header">TLDR enabled URL:</span> <span id="trustedLinker"></span><br />
+<span class="header">Download URL:</span> <span id="downloadSourceURL"></span><br />
+<span class="header">Local filename:</span> <span id="localFilename"></span><br />
+</p>
+
+<p>The above downloaded file has a different checksum to the one provided by the TLDR enabled URL.</p>
+
+<p>It has been removed from the Downloads window and from disk.</p>
+
+<div class="footer">(TLDR - Trusted Linker Download Redirect)</div>
+
+</body>
+</html>

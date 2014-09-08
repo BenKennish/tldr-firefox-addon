@@ -1,0 +1,28 @@
+{
+    "name": "tldr",
+    "title": "Trusted Linker Download Redirect (TLDR)",
+    "id": "jid1-86TkzrTDAek5Bg",
+    "description": "A prototype to add support for the TLDR (Trusted Linker Download Redirect) HTTP extension to Firefox",
+    "author": "Ben Kennish <ben@kennish.net> (http://www.bennish.net)",
+    "contributors": [ "Veeber" ],
+    "preferences" :
+    [
+        {
+            "name": "showNotificationOnValidate",
+            "type": "bool",
+            "value": true,
+            "title": "Notify on validate",
+            "description": "Show a notification when a download using TLDR validates successfully"
+        },
+        {
+            "name": "requireHTTPS",
+            "type": "bool",
+            "value": true,
+            "title": "Require HTTPS for TLDR",
+            "description": "Do not use TLDR for non-HTTPS linkers (recommended)"
+        }
+    ],
+    "homepage": "https://www.bennish.net/tldr/",
+    "license": "MPL 2.0",
+    "version": "0.8.3"
+}
