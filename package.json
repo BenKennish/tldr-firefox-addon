@@ -2,9 +2,9 @@
     "name": "tldr",
     "title": "Trusted Linker Download Redirect (TLDR) Support",
     "id": "tldr@bennish.net",
-    "description": "Adds support for the TLDR (Trusted Linker Download Redirect) HTTP extension to Firefox (prototype)",
+    "description": "Adds support for the TLDR (Trusted Linker Download Redirect) HTTP extension",
     "author": "Ben Kennish <ben@kennish.net> (http://www.bennish.net)",
-    "contributors": [ "Veeber (testing)", "Steve Whitely (help with namespacing)" ],
+    "contributors": [ "Veeber (testing)", "Steve Whitely (namespacing)" ],
     "permissions": { "private-browsing": true },
     "preferences" :
     [
@@ -25,5 +25,5 @@
     ],
     "homepage": "https://www.bennish.net/tldr/",
     "license": "MPL 2.0",
-    "version": "0.8.7"
+    "version": "0.8.8"
 }
