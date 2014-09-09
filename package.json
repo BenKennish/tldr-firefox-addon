@@ -4,8 +4,10 @@
     "id": "tldr@bennish.net",
     "description": "Adds support for the TLDR (Trusted Linker Download Redirect) HTTP extension",
     "author": "Ben Kennish <ben@kennish.net> (http://www.bennish.net)",
-    "contributors": [ "Veeber (testing)", "Steve Whitely (namespacing)" ],
+    "contributors": [ "Veeber (testing)", "Steve Whiteley (namespacing, icons)" ],
     "permissions": { "private-browsing": true },
+    "icon": "data/tldr-icon-48x48.png",
+    "icon64": "data/tldr-icon-64x64.png",
     "preferences" :
     [
         {
@@ -25,5 +27,5 @@
     ],
     "homepage": "https://www.bennish.net/tldr/",
     "license": "MPL 2.0",
-    "version": "0.8.8"
+    "version": "0.8.9"
 }
