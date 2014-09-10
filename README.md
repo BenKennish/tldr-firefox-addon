@@ -1,1 +1,3 @@
-A Firefox Add-On to add support for the TLDR (Trusted Linker Download Redirect) HTTP extension
+A Firefox Add-on to add support for the TLDR (Trusted Linker Download Redirect) HTTP extension
+
+See: https://www.bennish.net/tldr/
