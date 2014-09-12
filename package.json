@@ -12,20 +12,20 @@
     [
         {
             "name": "showNotificationOnValidate",
+            "title": "Notify on validate",
             "type": "bool",
             "value": true,
-            "title": "Notify on validate",
             "description": "Show a notification when a download using TLDR validates successfully"
         },
         {
             "name": "requireHTTPS",
+            "title": "Require HTTPS for TLDR",
             "type": "bool",
             "value": true,
-            "title": "Require HTTPS for TLDR",
             "description": "Require TLDR linkers to use HTTPS (recommended)"
         }
     ],
     "homepage": "https://www.bennish.net/tldr/",
     "license": "MPL 2.0",
-    "version": "0.8.10"
+    "version": "0.8.11"
 }
