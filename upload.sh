@@ -4,5 +4,5 @@
 set -o errexit
 
 echo Rsyncing files to www.bennish.net/files/...
-rsync -vu tldr-mobile.* ben@kennish.net:bennish/files/
+rsync -vu tldr.* tldr-mobile.* ben@kennish.net:bennish/files/
 echo All done
