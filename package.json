@@ -2,7 +2,7 @@
     "name": "tldr",
     "title": "Trusted Linker Download Redirect (TLDR) Support",
     "id": "tldr@bennish.net",
-    "description": "Adds support for the TLDR (Trusted Linker Download Redirect) HTTP extension",
+    "description": "Adds support for the TLDR (Trusted Linker Download Redirect) HTTP extension.  \n\nAllows Firefox to verify that downloaded files that are linked to by a trusted HTTPS site have not been tampered with.  Visit https://www.bennish.net/tldr/ for test links and to learn more.",
     "author": "Ben Kennish <ben@kennish.net>",
     "contributors": [ "Veeber (testing)", "Steve Whiteley (namespacing, icons)" ],
     "permissions": { "private-browsing": true },
